@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  }
+
+body{
+  
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+
+.block{
+  padding: 50px;
+}
+.section-one{
+  background-color: darkgray;
+  color: rgb(248, 249, 250);
+  padding-left: 3px;
+  padding-bottom: 3px;
+}
+.section-one__contact{
+  text-decoration: none;
+  color: #000;
+  background-color: rgb(205, 248, 104);
+  border-radius: 8px;
+}
+.section-one__name{
+  font-size: 155%;
+  margin-top: 10px;
+
+}
+.section-one__role{
+  font-size: 20px;
+}
+.section-two,.section-three,.section-four,.section-five{
+  margin-top: 10px;
+}
+.section-two__des,.section-three__des,.section-four__des,.section-five__des{
+  margin-top: 5px;
+}
+.section-five{
+  background-color: blanchedalmond;
+  
+}
+.section-five__title a{
+  color: #5834d9;
+  text-decoration: none;
+}
+.section-three li,.section-four li {
+  list-style: none;
+}
+.section-three{
+  display: inline-block;
+  background-color: aqua;
+  border-radius: 25px;
+  padding: 10px;
+  height: 150px;
+  vertical-align: top;
+}
+.section-four{
+  display: inline-block;
+  background-color: blue;
+  border-radius: 25px;
+  padding: 10px;
+  height: 150px;
+
+  vertical-align: top;
+  
+}
+.contact-form{
+  margin-top: 10px;
+}
+.contact-form__input,.contact-form__textarea,.contact-form__submit{
+  margin-top: 10px;
+}
+.contact-form__input{
+  padding: 10px;
+  border: none;
+  border-bottom: #000 solid 1px;
+}
+.contact-form__textarea{
+padding: 10px;
+border: none;
+border: #000 solid 1px;
+}
+.contact-form__submit{
+  padding: 10px;
+  background-color: aqua;
+}
